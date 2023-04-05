@@ -406,6 +406,4 @@ zope.event==4.6
 
 zope.interface==6.0
 
-turtle==0.3.2
-
 pyqt5==5.15.9
