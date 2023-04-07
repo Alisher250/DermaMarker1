@@ -86,3 +86,4 @@ turtle==0.0.1
 waitress==2.1.2
 flask==2.2.2
 virtualenv==20.21.0
+openai==0.27.4
