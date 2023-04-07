@@ -9,7 +9,6 @@ import os
 from werkzeug.utils import secure_filename
 from wtforms.validators import InputRequired
 import openai
-from gevent.pywsgi import WSGIServer
 
 from findPhotos import execute  # I was created by Amir :D
 
