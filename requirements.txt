@@ -84,3 +84,4 @@ yarl==1.8.2
 zipp==3.11.0
 turtle==0.0.1
 waitress==2.1.2
+flask==2.2.2
