@@ -51,7 +51,7 @@ def causes():
     x=[]
     x1 = ''
     x2 = ''
-    openai.api_key = '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'
+    openai.api_key = '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'
     if request.method == "POST":
         file = form.file.data
         file.save(os.path.join(os.path.abspath(os.path.dirname(__file__)),app.config['UPLOAD_FOLDER'],secure_filename(file.filename)))
