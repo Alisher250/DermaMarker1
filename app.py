@@ -1,4 +1,3 @@
-import flask
 from flask import request
 from waitress import serve
 from flask import Flask
@@ -9,7 +8,6 @@ import os
 from werkzeug.utils import secure_filename
 from wtforms.validators import InputRequired
 import openai
-
 from findPhotos import execute  # I was created by Amir :D
 
 
