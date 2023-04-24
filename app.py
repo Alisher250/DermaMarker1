@@ -51,7 +51,7 @@ def causes():
     x=[]
     x1 = ''
     x2 = ''
-    openai.api_key = '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'
+    openai.api_key = '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'
     if request.method == "POST":
         file = form.file.data
         file.save(os.path.join(os.path.abspath(os.path.dirname(__file__)),app.config['UPLOAD_FOLDER'],secure_filename(file.filename)))
@@ -82,4 +82,4 @@ def causes():
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host="0.0.0.0")
