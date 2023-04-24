@@ -1,4 +1,4 @@
-뿯붿absl-py==1.4.0
+absl-py==1.4.0
 
 aiogram==2.22.1
 
@@ -407,4 +407,7 @@ zipp==3.15.0
 zope.event==4.6
 
 zope.interface==6.0
+
+flask_wtf
+
 
