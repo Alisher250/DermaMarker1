@@ -1,4 +1,4 @@
-jfrom flask import request
+from flask import request
 from waitress import serve
 from flask import Flask
 from flask import render_template
