@@ -55,7 +55,6 @@ pyasn1-modules==0.2.8
 pycparser==2.21
 PyJWT==2.6.0
 pyOpenSSL==23.0.0
-pyparsing==3.0.9
 PySocks==1.7.1
 python-dateutil==2.8.2
 pytz==2022.7
@@ -84,3 +83,4 @@ yarl==1.8.2
 zipp==3.11.0
 turtle==0.0.1
 waitress==2.1.2
+openai
