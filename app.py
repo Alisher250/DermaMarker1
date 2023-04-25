@@ -1,4 +1,4 @@
-from flask import request
+jfrom flask import request
 from waitress import serve
 from flask import Flask
 from flask import render_template
@@ -80,4 +80,4 @@ def causes():
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host="0.0.0.0")
