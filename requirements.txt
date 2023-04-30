@@ -84,3 +84,4 @@ zipp==3.11.0
 turtle==0.0.1
 waitress==2.1.2
 openai
+tensorflow
