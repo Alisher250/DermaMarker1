@@ -104,6 +104,8 @@ def execute():
         print(lesion)
 
         lesion_percentage = []
+        lesion1_percentage = []
+        lesion1_name = []
         lesions_stat = {}
         for i in range(len(lesion)):
             try:
@@ -113,6 +115,14 @@ def execute():
         for i in lesions_stat.keys():
             stat = int(lesions_stat[i]) / len(lesion)
             lesion_percentage.append(str(i) + "--"+str(format((stat * 100), ".4g")) + "%")
+
+        for i in lesions_stat.keys():
+            stat = int(lesions_stat[i]) / len(lesion)
+            lesion1_percentage.append(format((stat * 100), ".4g"))
+        
+        for i in lesions_stat.keys():
+            stat = int(lesions_stat[i]) / len(lesion)
+            lesion1_name.append(str(i))
 
         from PIL import Image
         import base64
@@ -142,6 +152,6 @@ def execute():
     results_image = encode_img(results_image)
 
 
-    main_result = [lesion[0:5], new_image, results_image,lesion_percentage]
+    main_result = [lesion[0:5], new_image, results_image,lesion_percentage,lesion1_percentage,lesion1_name]
     return list(main_result)
 
